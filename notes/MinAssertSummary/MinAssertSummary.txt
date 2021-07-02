@@ -1,0 +1,43 @@
+MinAssert is a minimal unit testing framework for GML. It introduces a number of scripts that you can use for 
+common unit testing purposes. 
+
+===============
+Assertions
+===============
+AssertTrue
+AssertFalse
+AssertEquals
+AssertNotEquals
+AssertGreaterThan
+AssertSmallerThan
+
+
+
+
+
+Each of these assertions returns a String which is built in the following format:
+Note <> is not included in the actual unit test results.
+
+<ResultValue> : <ResultNotification>
+
+Where ResultValue is true, false or Error if the value is undefined.
+
+Where ResultNotification is a log message that can provide some more information, which can be one of the following:
+"ERROR: Test input was invalid!"
+"SUCCESS: Expected was <expected>, actual was <actual>"
+"FAIL: Expected was <expected>, actual was <actual>"
+
+
+
+
+=========================
+I might add some more functionality later, such as the following:
+=========================
+AssertArrayContains
+AssertArrayNotContains
+AssertMapContains
+AssertMapNotContains
+AssertArraySorted
+AssertArrayNotSorted
+AssertNull
+AssertNotNull <- I have my doubt with these ones as they don't seem very useful here

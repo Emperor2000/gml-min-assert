@@ -1,0 +1,6 @@
+1. Add GML_MIN_ASSERT to an empty room you'd like to test with, or simply instantiate it at game start.
+
+2. Call an assert function in the GML_MIN_ASSERT create event (dedicated section included).
+
+3. Upon game start you can view the result of testing in your console or on screen
+
