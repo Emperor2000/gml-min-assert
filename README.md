@@ -12,4 +12,4 @@ The image above showcases the UI for running the unit tests, the UI is scrollabl
 
 Adding tests is quick and easy! 
 
-Psst! You should try it ;)
+Psst! You should give it a shot! :)
