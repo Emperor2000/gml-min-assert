@@ -10,7 +10,8 @@ AssertEquals
 AssertNotEquals
 AssertGreaterThan
 AssertSmallerThan
-
+AssertPositive
+AssertNegative
 
 
 
@@ -40,4 +41,4 @@ AssertMapNotContains
 AssertArraySorted
 AssertArrayNotSorted
 AssertNull
-AssertNotNull <- I have my doubt with these ones as they don't seem very useful here
+AssertNotNull
