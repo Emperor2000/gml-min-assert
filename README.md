@@ -8,7 +8,8 @@ Documentation is included for getting it up and running. You could have your fir
 
 The image above showcases the UI for running the unit tests, the UI is scrollable and features 3 different color codes. Where orange indicates an error, red indicates a failed test and green indicates tests that pass.
 
-![unittesting1](https://user-images.githubusercontent.com/38536470/124349826-8763d480-dbf1-11eb-8bbb-6774c5bda152.PNG)
+![unittesting2](https://user-images.githubusercontent.com/38536470/124354230-50022180-dc0b-11eb-975a-e92577fc0559.PNG)
+
 
 Adding tests is quick and easy! 
 
