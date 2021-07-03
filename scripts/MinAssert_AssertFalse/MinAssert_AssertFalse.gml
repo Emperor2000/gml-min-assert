@@ -13,7 +13,7 @@ function AssertFalse(describe, actual){
 	return result_value;
 	}
 
-	if (actual == undefined || actual == -4) {
+	if (actual == undefined || actual == noone) {
 	result_value = "ERROR";
 	result_notification = "ERROR: <actual> must be defined";
 	var entry = ds_list_add(global.runner, result_value,  result_notification);

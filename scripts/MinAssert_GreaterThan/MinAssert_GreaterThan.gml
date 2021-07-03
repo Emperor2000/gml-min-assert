@@ -16,7 +16,7 @@ function AssertGreaterThan(describe, expected, actual){
 	}
 	
 	
-	if (expected == undefined || expected == -4) {
+	if (expected == undefined || expected == noone) {
 		result_value = "ERROR";
 		result_notification = "ERROR: <expected> must be defined";
 		result_value = describe + " [[" + result_value + "]] ";
@@ -25,7 +25,7 @@ function AssertGreaterThan(describe, expected, actual){
 
 	}
 	
-	if (actual == undefined || actual == -4) {
+	if (actual == undefined || actual == noone) {
 		result_value = "ERROR";
 		result_notification = "ERROR: <actual> must be defined";
 		result_value = describe + " [[" + result_value + "]] ";
