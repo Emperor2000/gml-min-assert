@@ -30,14 +30,14 @@ function AssertFalse(describe, actual){
 	}
 	
 	if (actual == false) {
-	result_value = "FAIL";
-	result_notification = "FAIL: Actual: " + string(actual) + " was false and should be true!";
+	result_value = "PASS";
+	result_notification = "PASS: Actual: " + string(actual) + " was false!";
 	}
 	
 	
 	if (actual == true) {
-	result_value = "PASS";
-	result_notification = "PASS: Actual: " + string(actual) + " is true";
+	result_value = "FAIL";
+	result_notification = "FAIL: Actual: " + string(actual) + " was true and should be false!";
 	}
 	
 	result_value = describe + " [[" + result_value + "]] ";

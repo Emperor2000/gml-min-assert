@@ -13,7 +13,7 @@ AssertEquals("It should help your workflow!", true, condition);
 var condition_false = false;
 AssertEquals("It helps you keep your codebase bug free!", true, condition);
 var number_of_bugs = 0;
-AssertFalse("this test fails on purpose!", number_of_bugs);
+AssertTrue("this test fails on purpose!", number_of_bugs);
 AssertTrue("It you are a rockstar!", condition);
 AssertNotEquals("It is not equal to 1", 0, condition);
 AssertTrue("it filters out errors!", "yep");
