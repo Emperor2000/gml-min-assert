@@ -1,8 +1,3 @@
-[![Github All Releases](https://img.shields.io/github/downloads/Emperor2000/gml-min-assert/total.svg)]()
-[![License](https://img.shields.io/github/license/Emperor2000/gml-min-assert.svg)]()
-[![Stars](https://img.shields.io/github/stars/Emperor2000/gml-min-assert.svg)]()
-
-
 # GameMaker Language Minimalistic Assertion
 A comprehensive minimalistic unit testing library for GameMaker Studio 2.3
 
