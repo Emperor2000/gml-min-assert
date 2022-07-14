@@ -21,13 +21,15 @@ AssertGreaterThan("24 is more than 12", 24, 12);
 AssertSmallerThan("1 is less than 6", 1, 6);
 AssertPositive("1 is a positive number", 1);
 AssertNegative("-1 is a negative number", -1);
-
-
+AssertNegative("-4 is a valid assertion", -4);
+AssertNegative("undefined is not a valid assertion", undefined);
+AssertNegative("noone is -4 during runtime", noone);
+AssertPositive("-4 is positive", -4);
 
 
 
 //===========================
-//ADD YOUR UNIT TESTS HERE:
+//ADD YOUR UNIT TESTS HERE OR IN A CUSTOM OBJECT, ALTERNATIVELY USE A "WITH GML_MIN_ASSERT" STATEMENT:
 //===========================
 
 

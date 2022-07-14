@@ -14,7 +14,7 @@ function AssertTrue(describe, actual){
 	var entry = ds_list_add(global.runner, result_value, result_notification);
 	return result_value;
 	}
-	if (actual == undefined || actual == noone) {
+	if (actual == undefined) {
 	result_value = "ERROR";
 	result_notification = "ERROR: <actual> must be defined";
 	result_value = describe + " [[" + result_value + "]] ";

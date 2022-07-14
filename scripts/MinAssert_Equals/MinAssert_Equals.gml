@@ -16,7 +16,7 @@ function AssertEquals(describe, expected, actual){
 	}
 	
 	
-	if (expected == undefined || actual == noone) {
+	if (expected == undefined) {
 		result_value = "ERROR";
 		result_notification = "ERROR: <expected> must be defined";
 		result_value = describe + " [[" + result_value + "]] ";
@@ -25,7 +25,7 @@ function AssertEquals(describe, expected, actual){
 
 	}
 	
-	if (actual == undefined || actual == noone) {
+	if (actual == undefined) {
 		result_value = "ERROR";
 		result_notification = "ERROR: <actual> must be defined";
 		result_value = describe + " [[" + result_value + "]] ";

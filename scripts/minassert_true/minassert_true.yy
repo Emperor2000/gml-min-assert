@@ -6,7 +6,7 @@
     "path": "folders/Scripts/GMLMinAssert.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MinAssert_GreaterThan",
+  "name": "MinAssert_True",
   "tags": [],
   "resourceType": "GMScript",
 }
