@@ -2,7 +2,7 @@
 draw_set_halign(fa_left);
 draw_set_font(GML_MIN_ASSERT_FONT);
 var j = 0;
-draw_text(room_width/3, 100, "===========GML MIN ASSERT==========");
+draw_text((room_width/3)+xdraw, 100, "===========GML MIN ASSERT==========");
 for (var i = 0; i < ds_list_size(global.runner); i++) {
 	j = scrollvalue + increment * i;
 	
@@ -16,11 +16,11 @@ for (var i = 0; i < ds_list_size(global.runner); i++) {
 		draw_set_color(c_orange);	
 	}
 	
-	draw_text(room_width/3, j,global.runner[| i]);	
+	draw_text((room_width/3)+xdraw, j,global.runner[| i]);	
 	
 	draw_set_color(c_white);
 }
-draw_text(room_width/3, 100+j,"===========UNIT TESTS COMPLETE==========");
+draw_text((room_width/3)+xdraw, 100+j,"===========UNIT TESTS COMPLETE==========");
 
 
 draw_set_halign(fa_left);

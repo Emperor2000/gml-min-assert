@@ -1,9 +1,9 @@
 /// @description Add tests here
 global.minassert_isverbose = true; //whether the unit tests are printed in the console.
 global.runner = ds_list_create();
-increment = 25;
+increment = 50;
 scrollvalue = 200;
-
+xdraw = 0;
 
 //=========
 //EXAMPLE TESTS
