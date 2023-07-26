@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"SetupTutorial","order":1,"path":"notes/SetupTutorial/SetupTutorial.yy",},
+    {"name":"MinAssert_SmallerThan","order":6,"path":"scripts/MinAssert_SmallerThan/MinAssert_SmallerThan.yy",},
+    {"name":"font_default","order":1,"path":"fonts/font_default/font_default.yy",},
+    {"name":"obj_test","order":1,"path":"objects/obj_test/obj_test.yy",},
+    {"name":"MinAssert_True","order":2,"path":"scripts/MinAssert_True/MinAssert_True.yy",},
+    {"name":"MinAssert_False","order":3,"path":"scripts/MinAssert_False/MinAssert_False.yy",},
+    {"name":"MinAssert_Positive","order":7,"path":"scripts/MinAssert_Positive/MinAssert_Positive.yy",},
+    {"name":"MinAssert_NotEquals","order":1,"path":"scripts/MinAssert_NotEquals/MinAssert_NotEquals.yy",},
+    {"name":"MinAssert_GreaterThan","order":5,"path":"scripts/MinAssert_GreaterThan/MinAssert_GreaterThan.yy",},
+    {"name":"MinAssert_Negative","order":8,"path":"scripts/MinAssert_Negative/MinAssert_Negative.yy",},
+  ],
+}

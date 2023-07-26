@@ -48,7 +48,7 @@ function AssertPositive(describe, actual){
 	}
 	
 	result_value = describe + " [[" + result_value + "]] ";
-	var entry = ds_list_add(global.runner, result_value, result_notification);
+	var entry = ds_list_add	(global.runner, result_value, result_notification);
 	return result_value;
 	
 }

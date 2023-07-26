@@ -22,7 +22,7 @@ function AssertTrue(describe, actual){
 	return result_value;
 	}
 	
-	if (!is_bool(actual) && actual != 0 && actual != 1) {
+	if (!is_bool(actual) && actual != false && actual != true) {
 	result_value = "ERROR";
 	result_notification = "ERROR: <actual> must be a value that evaluates to true or false!";
 	result_value = describe + " [[" + result_value + "]] ";

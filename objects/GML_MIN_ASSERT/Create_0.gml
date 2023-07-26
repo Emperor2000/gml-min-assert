@@ -25,7 +25,7 @@ AssertNegative("-4 is a valid assertion", -4);
 AssertNegative("undefined is not a valid assertion", undefined);
 AssertNegative("noone is -4 during runtime", noone);
 AssertPositive("-4 is positive", -4);
-
+AssertNegative("-4 is negative", -4);
 
 
 //===========================
