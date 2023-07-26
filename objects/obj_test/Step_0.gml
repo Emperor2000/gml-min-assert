@@ -5,7 +5,9 @@ x+= 0.01;
 y+= 0.01;
 
 if (countdown > 0) {
-AssertPositive("x is positive", x);
+	//run tests
+	AssertPositive("obj_test - image angle should be positive.",image_angle);
+	AssertEquals("x should be greater than y", y, x);
 }
 
 countdown -= 1;

@@ -1,8 +1,8 @@
 ///	@function		AssertSmallerThan(describe, lowest, highest);
 ///	@description	AssertSmallerThan(describe, lowest, highest);
 /// @param describe The unit test description
-///	@param expected	The expected result
-///	@param actual	The actual result
+///	@param lowest	The expected result
+///	@param highest	The actual result
 function AssertSmallerThan(describe, expected, actual){
 
 	var result_value = 0;

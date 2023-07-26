@@ -1,8 +1,8 @@
 ///	@function		AssertGreaterThan(describe, highest, lowest);
 ///	@description	AssertGreaterThan(describe, highest, lowest);
 /// @param describe description
-///	@param expected	highestnumber
-///	@param actual	lowestnumber
+///	@param highest	highestnumber
+///	@param lowest	lowestnumber
 function AssertGreaterThan(describe, expected, actual){
 
 	var result_value = 0;
